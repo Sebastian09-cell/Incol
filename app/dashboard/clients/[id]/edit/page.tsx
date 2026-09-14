@@ -1,5 +1,5 @@
 import { prisma } from "@/lib/prisma";
-import { updateClientAction } from "@/lib/actions/clientActions/updateClientActions";
+import { updateClientAction } from "@/lib/actions/clientActions/updateClientAction";
 
 export default async function EditClientPage({
   params,
